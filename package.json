@@ -1,0 +1,40 @@
+{
+  "name": "apiuser-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Lucas Vida",
+    "email": "lucasvida@live.com",
+    "url": "https://github.com/lucasvida"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "node dist/server.js",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "test": ""
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6"
+  }
+}
